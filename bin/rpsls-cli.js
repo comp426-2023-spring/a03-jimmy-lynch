@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import minimist from "minimist";
-import rpsls from "../lib/rpsls.js";
+import { rpsls } from "../lib/rpsls.js";
 
 let args = minimist(process. argv.slice(2));
 
