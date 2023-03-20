@@ -36,7 +36,7 @@ if (args.r || args.rules) {
 let move = args._[0]
 let output = rpsls(move)
 
-if (output.equals('error')) {
+if (output === 'error') {
     console.error(`${move} is not real.`);
 
     console.log('Usage: node-rpsls [SHOT]' +
