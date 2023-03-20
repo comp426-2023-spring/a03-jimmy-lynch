@@ -49,7 +49,7 @@ if (output === 'error') {
     '\n\tnode-rpsls rock   Return JSON with results for RPSLS played against a simulated opponent.' +
                       '\n\t\te.g {"player":"rock","opponent":"Spock","result":"lose"}');
 
-    console.log('Rules for the Lizard-Spock Espansion of Rock Paper Scissors:' +
+    console.log('Rules for the Lizard-Spock Expansion of Rock Paper Scissors:' +
     '\n\n\t Scissors CUTS Paper' +
     '\n\t Paper COVERS Rock' +
     '\n\t Rock SMOOSHES Lizard' +
