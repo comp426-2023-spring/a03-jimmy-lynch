@@ -27,8 +27,6 @@ if (args.r || args.rules) {
     process.exit(0);
 } 
 
-//encapsulate in javascript folder
-//put functions for rps and rpsls there
 let move = args._[0]
 let output = rps(move)
 
