@@ -55,12 +55,12 @@ if (output === 'error') {
     '\n\t Rock SMOOSHES Lizard' +
     '\n\t Lizard POISONS Spock' +
     '\n\t Spock SMASHES Scissors' +
-    '\n\ Scissors DECAPITATES Lizard' +
+    '\n\t Scissors DECAPITATES Lizard' +
     '\n\t Lizard EATS Paper' +
     '\n\t Paper DISPROVES Spock' +
     '\n\t Spock VAPORIZES Rock' +
     '\n\t Rock CRUSHES Scissors');
-    
+
     process.exit(1);
 } else {
     console.log(JSON.stringify(output));
