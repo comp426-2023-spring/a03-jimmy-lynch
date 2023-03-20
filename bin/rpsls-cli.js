@@ -37,7 +37,7 @@ let move = args._[0]
 let output = rpsls(move)
 
 if (output === 'error') {
-    console.error(`${move} is not real.`);
+    console.error(`${move} is out of range,`);
 
     console.log('Usage: node-rpsls [SHOT]' +
     '\nPlay the Lizard-Spock Expansion of Rock Paper Scissors (RPSLS)!' +
