@@ -50,16 +50,17 @@ if (output === 'error') {
                       '\n\t\te.g {"player":"rock","opponent":"Spock","result":"lose"}');
 
     console.log('Rules for the Lizard-Spock Espansion of Rock Paper Scissors:' +
-    '\n\n\t- Scissors CUTS Paper' +
-    '\n\t- Paper COVERS Rock' +
-    '\n\t- Rock SMOOSHES Lizard' +
-    '\n\t- Lizard POISONS Spock' +
-    '\n\t- Spock SMASHES Scissors' +
-    '\n\t- Scissors DECAPITATES Lizard' +
-    '\n\t- Lizard EATS Paper' +
-    '\n\t- Paper DISPROVES Spock' +
-    '\n\t- Spock VAPORIZES Rock' +
-    '\n\t- Rock CRUSHES Scissors');
+    '\n\n\t Scissors CUTS Paper' +
+    '\n\t Paper COVERS Rock' +
+    '\n\t Rock SMOOSHES Lizard' +
+    '\n\t Lizard POISONS Spock' +
+    '\n\t Spock SMASHES Scissors' +
+    '\n\ Scissors DECAPITATES Lizard' +
+    '\n\t Lizard EATS Paper' +
+    '\n\t Paper DISPROVES Spock' +
+    '\n\t Spock VAPORIZES Rock' +
+    '\n\t Rock CRUSHES Scissors');
+    
     process.exit(1);
 } else {
     console.log(JSON.stringify(output));
