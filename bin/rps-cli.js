@@ -49,7 +49,7 @@ if (output === 'error') {
     '\n\t- Rock CRUSHES Scissors');
     process.exit(1);
 } else {
-    console.log(JSON.stringify(result));
+    console.log(JSON.stringify(output));
 }
 
 //I have no fucking clue what's happening
