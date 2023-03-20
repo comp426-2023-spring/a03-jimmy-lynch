@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/comp426-2023-spring/a03-jimmy-lynch.git"
   },
-  "author": "",
+  "author": "@jimmy-lynch",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a03-jimmy-lynch/issues"
@@ -20,6 +20,7 @@
     "node-rps": "./bin/rps-cli.js",
     "node-rpsls": "./bin/rpsls-cli.js"
   },
+  "type": "module",
   "dependencies": {
     "minimist": "^1.2.8"
   }
